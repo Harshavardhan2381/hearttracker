@@ -2,13 +2,7 @@ import streamlit as st
 import pandas as pd
 import time
 from datetime import datetime, timedelta
-import (
-    generate_heart_rate_data,
-    plot_heart_rate,
-    plot_health_metrics,
-    calculate_health_metrics,
-    check_alerts
-)
+
 from models.user import create_user, verify_user
 
 # Page configuration
