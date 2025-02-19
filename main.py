@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import time
 from datetime import datetime, timedelta
-from utils import (
+import (
     generate_heart_rate_data,
     plot_heart_rate,
     plot_health_metrics,
